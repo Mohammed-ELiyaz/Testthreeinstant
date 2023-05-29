@@ -36,6 +36,7 @@ public class LoginActivity extends Activity {
         tx1 = (TextView)findViewById(R.id.textView3);
         tx1.setVisibility(View.GONE);
 
+        //Test for just
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
