@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/yellow"
+    tools:context=".QrCode.PaymentSuccessfull">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_marginTop="150dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Transaction Details"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+
+            android:text="Jalanterk Restarent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="Amount:  RM 150"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="Date:   26 May 2023"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:text="Description: Meals payment"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/paymentgreen"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:text="Transaction done successfully"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/baseline_done_outline_24"
+            android:backgroundTint="@color/paymentgreen"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/baseline_arrow_back_ios_new_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

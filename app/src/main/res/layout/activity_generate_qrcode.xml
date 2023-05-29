@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    style="@style/AppTheme.MeterialTheme"
+    tools:context=".QrCode.GenerateQRCodeActivity">
+
+<FrameLayout
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idFLQrCode"
+    android:layout_marginTop="70dp"
+    android:layout_centerHorizontal="true"
+    style="@style/AppTheme.MeterialTheme"
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/idTVGenerateQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:elevation="1dp"
+        android:text="your code will be appear"
+        />
+    <ImageView
+        android:id="@+id/idIVQRCode"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@color/white"
+        />
+
+
+
+
+
+</FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idFLQrCode"
+        android:id="@+id/Inputtextlaout"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="50dp"
+
+        android:hint="code response"
+        android:layout_marginEnd="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/yellow"
+            android:textSize="28dp"
+            android:id="@+id/idEdtData"
+            android:ems="10"
+
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnGeneratecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Inputtextlaout"
+        android:layout_margin="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Generate"
+        android:textColorHint="@color/white"
+        android:background="@color/yellow"
+        />
+
+
+
+</RelativeLayout>
