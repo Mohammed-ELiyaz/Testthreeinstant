@@ -62,6 +62,10 @@ dependencies {
 
     implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
     implementation 'com.google.zxing:core:3.5.1'
+<<<<<<< HEAD
+=======
+    implementation('com.journeyapps:zxing-android-embedded:4.3.0') { transitive = false }
+>>>>>>> 56fbefd (Initial commit)
     implementation ('eu.livotov.labs.android:CAMView:2.0.1@aar') {transitive=true}
 
 
