@@ -9,6 +9,11 @@ import android.widget.ImageView;
 
 import com.example.testthreeinstant.R;
 
+
+// Author: Momin Mohammed Eliyaz
+// Last modified: 2023-05-15
+// Contact: www.linkedin.com/in/m-eliyaz-b84122118
+
 public class PaymentSuccessfull extends AppCompatActivity {
 
     private ImageView Closebtn;

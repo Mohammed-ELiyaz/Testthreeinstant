@@ -25,6 +25,11 @@ import org.w3c.dom.Text;
 import eu.livotov.labs.android.camview.ScannerLiveView;
 import eu.livotov.labs.android.camview.scanner.decoder.zxing.ZXDecoder;
 
+// Author: Momin Mohammed Eliyaz
+// Last modified: 2023-05-15
+// Contact: www.linkedin.com/in/m-eliyaz-b84122118
+
+
 public class ScanQRCodeActivity extends AppCompatActivity {
 
     private ScannerLiveView scannerLiveView;
